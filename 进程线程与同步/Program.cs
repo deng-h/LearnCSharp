@@ -46,7 +46,7 @@
                 Thread.Sleep(3000);
                 Console.WriteLine("(Lambda) Download End...");
             });
-            thread1.IsBackground = true;  // 这时候Main方法结束，应用程序就会退出，所以这个线程看不到End结束
+            //thread1.IsBackground = true;  // 这时候Main方法结束，应用程序就会退出，所以这个线程看不到End结束
             thread1.Start();
 
             // 只要有前台程序在运行，应用程序就不会退出，如果有多个前台程序在运行，但是Main方法结束了，应用程序也不会退出
@@ -54,8 +54,14 @@
             // 用Thread类创建的线程默认是前台线程，用ThreadPool创建的线程默认是后台线程
             // 用IsBackground属性可以设置线程是否为后台线程
 
+            // 3 通过线程池开启一个新的线程
+            // 线程池中的线程都是后台线程，所以当Main方法结束后，应用程序就会退出，且不能被修改为前台线程
+            ThreadPool.QueueUserWorkItem(Download, "http://www.baidu.com");
+            ThreadPool.QueueUserWorkItem(Download, "http://www.sina.com");
+
+            
         }
-        
+
         static void Download(object str)
         {
             Console.WriteLine($"Download {str} Start...");
