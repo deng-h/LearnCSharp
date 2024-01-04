@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "设计模式_观察者模�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "反射和特性", "反射和特性\反射和特性.csproj", "{F918B510-3EE8-4DD6-B047-035D193FDB87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "进程线程与同步", "进程线程与同步\进程线程与同步.csproj", "{4030EBB3-D18A-47B3-A27A-4C3B284D660C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "进程线程与同步", "进程线程与同步\进程线程与同步.csproj", "{4030EBB3-D18A-47B3-A27A-4C3B284D660C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数据结构与算法_快速排序", "数据结构与算法_快速排序\数据结构与算法_快速排序.csproj", "{C03CFEED-C46E-433B-A7B2-625CB2C7CF4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数据结构与算法_二叉树", "数据结构与算法_二叉树\数据结构与算法_二叉树.csproj", "{548719AE-CA20-41EF-8971-966D15632F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据结构与算法_哈希函数与哈希表", "数据结构与算法_哈希函数与哈希表\数据结构与算法_哈希函数与哈希表.csproj", "{09036080-0E2A-4BDC-88F1-D65C9E802882}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{4030EBB3-D18A-47B3-A27A-4C3B284D660C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4030EBB3-D18A-47B3-A27A-4C3B284D660C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4030EBB3-D18A-47B3-A27A-4C3B284D660C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03CFEED-C46E-433B-A7B2-625CB2C7CF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03CFEED-C46E-433B-A7B2-625CB2C7CF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03CFEED-C46E-433B-A7B2-625CB2C7CF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03CFEED-C46E-433B-A7B2-625CB2C7CF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548719AE-CA20-41EF-8971-966D15632F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548719AE-CA20-41EF-8971-966D15632F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548719AE-CA20-41EF-8971-966D15632F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548719AE-CA20-41EF-8971-966D15632F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09036080-0E2A-4BDC-88F1-D65C9E802882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09036080-0E2A-4BDC-88F1-D65C9E802882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09036080-0E2A-4BDC-88F1-D65C9E802882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09036080-0E2A-4BDC-88F1-D65C9E802882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
